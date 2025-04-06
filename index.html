@@ -168,15 +168,9 @@
 </head>
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
 	
-    <!-- Load Facebook SDK for JavaScript -->
+    <!-- Include the Facebook SDK -->
     <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0"></script>
 
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHQJQJR"
@@ -1482,13 +1476,14 @@
 			<div class="owl-carousel owl-theme c-theme c-owl-nav-center wow animated fadeInUp" data-items="4" data-slide-speed="4000" data-rtl="false"> 
 		  		<div class="c-content-person-1 c-option-2">
 		  			<div class="c-caption">
-                        <div class="fb-share-button" data-href="https://drive.google.com/file/d/1D40znTUEMeEDpfPEkZLqOPb4tPpkW9pv/view?usp=drive_link" data-layout="" data-size="">
-                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1D40znTUEMeEDpfPEkZLqOPb4tPpkW9pv%2Fview%3Fusp%3Ddrive_link&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
-                            Share</a></div>
+                        
+                        <div class="fb-share-button" 
+                            data-href="https://drive.google.com/file/d/1D40znTUEMeEDpfPEkZLqOPb4tPpkW9pv/view?usp=drive_link" data-layout="link" data-size="large">
+                        </div>
 
-		  				<!--a target="_blank" href="https://www.facebook.com/oursheikh.official"-->
-							<img src="/images/facebook.jpeg" class="img-responsive c-overlay-object" alt="Facebook" height="340" width="340">
-						<!--/a-->
+		  				<!--a target="_blank" href="https://www.facebook.com/oursheikh.official">
+                          <img src="/images/facebook.jpeg" class="img-responsive c-overlay-object" alt="Facebook" height="340" width="340">
+						</a-->
 		  			</div>
 		  			<div class="c-body c-reset">
 			  			<div class="c-head">
