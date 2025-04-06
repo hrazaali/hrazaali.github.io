@@ -168,6 +168,16 @@
 </head>
 <body class="c-layout-header-fixed c-layout-header-mobile-fixed">
 	
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHQJQJR"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -1472,9 +1482,13 @@
 			<div class="owl-carousel owl-theme c-theme c-owl-nav-center wow animated fadeInUp" data-items="4" data-slide-speed="4000" data-rtl="false"> 
 		  		<div class="c-content-person-1 c-option-2">
 		  			<div class="c-caption">
-		  				<a target="_blank" href="https://www.facebook.com/oursheikh.official">
-							<img src="assets/images/socialmedia/facebook.png" class="img-responsive c-overlay-object" alt="Facebook" height="340" width="340">
-						</a>
+                        <div class="fb-share-button" data-href="https://drive.google.com/file/d/1D40znTUEMeEDpfPEkZLqOPb4tPpkW9pv/view?usp=drive_link" data-layout="" data-size="">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1D40znTUEMeEDpfPEkZLqOPb4tPpkW9pv%2Fview%3Fusp%3Ddrive_link&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                            Share</a></div>
+
+		  				<!--a target="_blank" href="https://www.facebook.com/oursheikh.official"-->
+							<img src="/images/facebook.jpeg" class="img-responsive c-overlay-object" alt="Facebook" height="340" width="340">
+						<!--/a-->
 		  			</div>
 		  			<div class="c-body c-reset">
 			  			<div class="c-head">
@@ -1492,7 +1506,7 @@
 				<div class="c-content-person-1 c-option-2">
 		  			<div class="c-caption">
 		  				<a target="_blank" href="https://www.youtube.com/channel/UCefP_tP1ROXmqu2miDVCtCg/featured">
-							<img src="assets/images/socialmedia/youtube.jpg" class="img-responsive c-overlay-object" alt="YouTube" height="340" width="340">
+							<img src="/images/youtube.png" class="img-responsive c-overlay-object" alt="YouTube" height="340" width="340">
 						</a>	
 		  			</div>
 		  			<div class="c-body c-padding-10">
@@ -1510,7 +1524,7 @@
 				<div class="c-content-person-1 c-option-2">
 		  			<div class="c-caption">
 		  				<a target="_blank" href="https://twitter.com/AmeerAwanAQ">
-							<img src="assets/images/socialmedia/twitter.jpeg" class="img-responsive c-overlay-object" alt="Twitter" height="340" width="340">
+							<img src="/images/twitter.jpeg" class="img-responsive c-overlay-object" alt="Twitter" height="340" width="340">
 						</a>	
 		  			</div>
 		  			<div class="c-body">
@@ -1541,7 +1555,7 @@
 				<div class="c-content-person-1 c-option-2">
 		  			<div class="c-caption">
 		  				<a target="_blank" href="https://www.naqshbandiaowaisiah.org/almurshidtv">
-							<img src="assets/images/socialmedia/almurshid-tv.png" class="img-responsive c-overlay-object" alt="Al-Murshid TV" height="340" width="340">
+							<img src="/images/almurshed.jpeg" class="img-responsive c-overlay-object" alt="Al-Murshid TV" height="340" width="340">
 						</a>	
 		  			</div>
 		  			<div class="c-body">
